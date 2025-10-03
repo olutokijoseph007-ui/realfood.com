@@ -1,0 +1,38 @@
+
+/*== css layout for 600px screen==*/
+:root{
+    font-size:1.7em;
+}
+.img{
+    width:100%;
+    height: 50%;
+}
+#media{
+    display: flex;
+    
+}
+.media2{
+    margin-top:90%; 
+
+}
+/*==
+#img{
+ width:500px;
+ height: 25%;
+ margin-left: auto;
+ margin-left:auto;
+    
+}
+#text{
+    margin-top:70%;
+    height: 50%;
+    
+}==*/
+#flexbox{
+    display: flex;
+    flex-direction: column;
+}
+#img{
+    width:100%;
+    height:10%;
+}

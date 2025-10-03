@@ -1,0 +1,129 @@
+ 
+  /*=== css layout for laptop=====*/
+  @keyframes test{
+    0%{background-image: url(jollof.jfif);}
+   50%{background-image:url(another.jfif) ;}
+   100%{background-image: url(toke.jpg);}
+
+  }
+  :root{
+    animation-name: test;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    margin: 0%;
+  }
+  .id{
+    display: flex;
+    flex-direction: row;
+  }
+#side{
+    text-align: right;
+    margin-right: 24%;
+    
+        
+}
+#side ul{
+    list-style: none;
+    
+}
+#side ul li a{
+    padding: 15px;
+    color: green;
+
+    text-decoration: none;
+}
+#side li{
+    text-align:right ;
+    display: inline;
+}
+#side ul li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#flex{
+    clear: both;
+    text-align: right;   
+}
+
+#fle{
+    background-color:green;
+    color: whitesmoke;
+    text-align: right;
+    margin-left: 63%;
+    width:180px;
+    
+    border-radius:3px;
+    padding-right:100px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+    text-align: left;
+    padding-left: 20px;
+
+
+}
+.fle2{
+
+    text-align: right;
+    margin-right:14%;
+    font-size: 52px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.fle3{
+
+    text-align: right;
+    margin-right:6%;
+    font-size:52px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+img{
+        
+    margin-top: 1%;
+
+    width:500px;
+    margin-bottom: 40%;
+    padding-top:0%;
+    float:left;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+#button{
+    box-sizing: border-box;
+    border-radius: 2px;
+    border:2px solid whitesmoke;
+    padding: 10px;
+margin-right:28% ;
+color: whitesmoke;
+background-color:#ffcc00;
+
+}
+#button:hover{
+    background-color: green;
+    color: black;
+}
+
+#footer{
+    text-align: center;
+    color: blue;
+}
+.para{
+    margin-right:18%;
+}
+.para2{
+    margin-right:8%;
+}
+.dis{
+
+display: flex;
+flex-direction: row;
+}
+.linebreak{
+    background-color: black;
+    height: 2px;
+    flex-basis: 40000px;
+}
+/*===meadia query====*/
